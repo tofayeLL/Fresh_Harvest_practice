@@ -34,10 +34,10 @@ const Nav = () => {
               <Link
                 key={link.href}
                 href={link.href}
-               className={`relative font-medium text-gray-700 hover:text-green-600 transition 
+               className={`relative font-medium text-gray-700 hover:text-gray-800 transition 
   after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 
-  after:w-0 hover:after:w-2/3 after:h-[2px] after:bg-green-500 after:transition-all 
-  ${pathname === link.href ? 'after:w-2/3 text-green-600' : 'after:w-0'}`}
+  after:w-0 hover:after:w-2/3 after:h-[2px] after:bg-[#759c40] after:transition-all 
+  ${pathname === link.href ? 'after:w-2/3 text-gray-800' : 'after:w-0'}`}
               >
                 {link.name}
               </Link>
@@ -50,10 +50,10 @@ const Nav = () => {
               <Link
                 key={link.href}
                 href={link.href}
-              className={`relative font-medium text-gray-700 hover:text-green-600 transition 
+              className={`relative font-medium text-gray-700 hover:text-gray-800 transition 
   after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 
-  after:w-0 hover:after:w-2/3 after:h-[2px] after:bg-green-500 after:transition-all 
-  ${pathname === link.href ? 'after:w-2/3 text-green-600' : 'after:w-0'}`}
+  after:w-0 hover:after:w-2/3 after:h-[2px] after:bg-[#759c40] after:transition-all 
+  ${pathname === link.href ? 'after:w-2/3 text-gray-800' : 'after:w-0'}`}
               >
                 {link.name}
               </Link>

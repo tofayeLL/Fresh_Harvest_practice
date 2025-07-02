@@ -13,7 +13,7 @@ const Banner = () => {
       <div className="mx-auto max-w-md space-y-3">
         {/* Header */}
         <div className="text-start">
-          <h1 className="text-lg font-medium text-green-600 sm:text-xl">Welcome to Fresh Harvest</h1>
+          <h1 className="text-lg font-medium text-[#759c40] sm:text-xl">Welcome to Fresh Harvest</h1>
         </div>
 
         {/* Main Content */}

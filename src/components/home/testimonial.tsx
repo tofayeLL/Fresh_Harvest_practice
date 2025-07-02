@@ -24,8 +24,8 @@ export default function Testimonial() {
             <div className="flex flex-col md:flex-row items-start gap-8">
               <div className="flex-shrink-0">
                 <Image
-                  src="/placeholder.svg"
-                  alt="Customer"
+                  src=""
+                  alt="Image"
                   width={120}
                   height={120}
                   className="rounded-full object-cover object-center"
