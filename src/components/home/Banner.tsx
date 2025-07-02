@@ -6,7 +6,8 @@ import { Button } from "@/components/ui/button"
 
 const Banner = () => {
   return (
-    <section className="my-10 max-w-7xl  px-4  mx-auto flex flex-col md:flex-row items-center justify-start space-y-8 md:space-y-0">
+    <section className="my-10 max-w-7xl  px-4  mx-auto flex flex-col md:flex-row items-center justify-start space-y-8 md:space-y-0"
+     >
       {/* banner left */}
        <div className="">
       <div className="mx-auto max-w-md space-y-3">
@@ -44,29 +45,10 @@ const Banner = () => {
    
          {/* Special Offer Section */}
         <div className="relative mt-12">
-          {/* Curved Arrow */}
-          <div className="absolute -top-8 left-4">
-            <svg width="60" height="40" viewBox="0 0 60 40" fill="none" className="text-green-600">
-              <path
-                d="M5 35C15 25 25 15 35 25C45 35 50 30 55 25"
-                stroke="currentColor"
-                strokeWidth="3"
-                fill="none"
-                strokeLinecap="round"
-              />
-              <path
-                d="M50 20L55 25L50 30"
-                stroke="currentColor"
-                strokeWidth="3"
-                fill="none"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+        
 
           {/* Offer Card */}
-          <div className="bg-gray-200 rounded-2xl p-6 shadow-lg border border-gray-300 translate-x-20">
+          <div className="bg-gray-200 rounded-2xl p-6 shadow-lg border border-gray-300 lg:translate-x-20">
             <div className="flex items-center justify-between">
               <div className="flex-1">
                 <p className="text-sm text-gray-600 mb-1">Special Offer</p>
@@ -84,8 +66,8 @@ const Banner = () => {
               <div className="ml-4">
                 <div className="w-24 h-24 sm:w-28 sm:h-28 relative object-center">
                   <Image
-                    src="/images/fresh-salad.png"
-                    alt="Fresh Salad Bowl"
+                    src=""
+                    alt="image"
                     fill
                     className="object-cover rounded-full"
                   />
